@@ -1,0 +1,25 @@
+# Local secrets
+.env
+
+# Virtual environments
+venv/
+.venv/
+
+# Data artifacts (never commit raw or derived tables)
+*.csv
+*.parquet
+*.txt
+!requirements.txt
+*.rds
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# OS and editor noise
+.DS_Store
+.idea/
+.vscode/
